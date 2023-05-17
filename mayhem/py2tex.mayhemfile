@@ -1,0 +1,8 @@
+project: pytexit
+target: py2tex
+duration: 600
+testsuite: 
+    - file://mayhem/corpus
+cmds:
+    - cmd: /src/mayhem/fuzz_py2tex.py
+      libfuzzer: true
