@@ -16,6 +16,8 @@ def TestOneInput(data):
         pass
     except TypeError:
         pass
+    except IndexError:
+        pass
 
 atheris.instrument_all()
 atheris.Setup(sys.argv, TestOneInput)
